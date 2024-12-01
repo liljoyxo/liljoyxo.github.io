@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝓵𝓲𝓵𝓵𝓲𝓪𝓷 𝓳𝓸𝔂</title>
+    
+    <!-- Google Fonts for a cursive font (Pacifico) -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        /* Ensure the body fills the entire height of the viewport */
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Pacifico', cursive; /* Apply the imported font */
+        }
+
+        /* Set the background color to pink and center the text */
+        body {
+            background-color: pink;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.0em; /* Adjust the size of the text */
+            text-align: center;
+            gap: 20px; /* Add some space between the title and the buttons */
+        }
+
+        /* Style the title */
+        div {
+            font-size: 3.5em; /* Adjust title font size */
+            color: black;
+        }
+
+        /* Style the buttons */
+        .button {
+            font-size: 0.9em; /* Smaller font size */
+            background-color: transparent;
+            color: black;
+            border: 2px solid black;
+            padding: 10px 20px; /* Smaller padding */
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-radius: 8px; /* Rounded corners */
+        }
+
+        /* Button hover effect */
+        .button:hover {
+            background-color: black;
+            color: white;
+        }
+
+        /* Button focus effect for accessibility */
+        .button:focus {
+            outline: 2px solid blue;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+            body {
+                font-size: 2em; /* Make the text smaller on small screens */
+            }
+
+            .button {
+                font-size: 0.8em; /* Adjust button size */
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div> ★ 𝓵𝓲𝓵𝓵𝓲𝓪𝓷 𝓳𝓸𝔂 ★</div>
+    <a href="socialmedia.html"><button class="button">Social Media</button></a> <!-- Button linked to socialmedia.html -->
+    <a href="aboutme.html"><button class="button">About Me</button></a> <!-- Button linked to aboutme.html -->
+</body>
+</html>

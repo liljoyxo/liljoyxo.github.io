@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>socials</title>
+    
+    <!-- Google Fonts for a cursive font (Pacifico) -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        /* Ensure the body fills the entire height of the viewport */
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Pacifico', cursive;
+        }
+
+        /* Set the background color to pink and center the text */
+        body {
+            background-color: pink;  /* Changed background to pink */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2em;
+            text-align: center;
+            gap: 30px;
+        }
+
+        /* Style the title */
+        h1 {
+            font-size: 3em;
+            color: #333;
+        }
+
+        /* Style the social media links */
+        .social-media-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .social-media-link {
+            font-size: 1.2em;
+            color: #0077b5; /* Default color for social media links */
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #fff;
+            border: 2px solid #0077b5;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        /* Hover effect for the links */
+        .social-media-link:hover {
+            background-color: #0077b5;
+            color: white;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+            body {
+                font-size: 1.5em;
+            }
+
+            .social-media-link {
+                font-size: 1.1em;
+                padding: 12px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1> ─── ⋆⋅ socials ⋅⋆ ── </h1>
+    <div class="social-media-links">
+        <a href="https://www.facebook.com" target="_blank" class="social-media-link">Facebook</a>
+        <a href="https://discord.com" target="_blank" class="social-media-link">Discord</a>
+        <a href="https://www.instagram.com" target="_blank" class="social-media-link">Instagram</a>
+        <a href="https://store.steampowered.com" target="_blank" class="social-media-link">Steam</a>
+        <a href="https://www.youtube.com" target="_blank" class="social-media-link">YouTube</a>
+    </div>
+</body>
+</html>
